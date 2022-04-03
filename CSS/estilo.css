@@ -1,4 +1,4 @@
-body{background-color: rgb(100, 167, 59);
+body{background-color: rgb(131, 230, 154);
     font-family: sans-serif;
     color: rgb(255, 255, 255);
     display: flex;
@@ -7,9 +7,163 @@ body{background-color: rgb(100, 167, 59);
 
 }
 
+.container1{
+    margin-top: 2;
+}
+
+/* Modal 1*/
+.Amodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Amodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModal:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+
+/* Modal 2*/
+.Bmodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Bmodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalB:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+  /* Modal 3*/
+.Cmodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Cmodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalC:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+  /* Modal 4*/
+  .Dmodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Dmodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalD:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  /* Modal 5*/
+  .Emodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Emodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalE:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+
+  /* Modal 6*/
+  .Fmodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Fmodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalF:target{
+    opacity:1;
+    pointer-events:auto;
+  }
     .container{
         margin: auto;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         width: 800px;
         padding: 30px;
     }
@@ -116,3 +270,4 @@ body{background-color: rgb(100, 167, 59);
 .accesorios{
     text-align: right;
 }
+
