@@ -1,0 +1,274 @@
+body{background-color: rgb(131, 230, 154);
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+
+}
+
+.container1{
+    margin-top: 2;
+}
+
+/* Modal 1*/
+.Amodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Amodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModal:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+
+/* Modal 2*/
+.Bmodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Bmodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalB:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+  /* Modal 3*/
+.Cmodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Cmodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalC:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+  /* Modal 4*/
+  .Dmodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Dmodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalD:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+  /* Modal 5*/
+  .Emodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Emodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalE:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+
+
+  /* Modal 6*/
+  .Fmodal-contenido{
+    background-color:rgb(193, 214, 98);
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    color: #000;
+  }
+.Fmodal{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+  }
+#miModalF:target{
+    opacity:1;
+    pointer-events:auto;
+  }
+    .container{
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        width: 800px;
+        padding: 30px;
+    }
+    
+    ul, li{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    ul.slider{
+        position: relative;
+        width: 800px;
+        height: 300px;
+    }
+    
+    ul.slider li{
+        position:absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        background-color: white;
+        transition: opacity .5s;
+    }
+    
+    ul.slider li img{
+    
+        width: 100%;
+        height: 300px ;
+        object-fit: cover;
+    }
+    
+    ul.slider li:first-child{
+        opacity: 1;
+    }
+    ul.slider li:target{
+        opacity: 1;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .menu{
+        text-align: center;
+        margin: 20px;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .menu li a{
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        background-color: rgb(255, 0, 0);
+        padding: 10px;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        border-radius: 100%;
+    }
+
+    Footer{
+      background: #15c4d8fe;
+      height: 70px;
+      border-top: 2px solid #15c4d8fe;  
+      /*  poner footer abajo */
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
+
+.somos {text-align: center;
+
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.centrado{
+    position: relative ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.somosfondo {
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+  }
+
+.accesorios{
+    text-align: right;
+}
+
